@@ -1,0 +1,22 @@
+{
+  "name": "@gerblins/react-utils",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.13",
+    "react-dom": ">=16.13"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7"
+  }
+}
